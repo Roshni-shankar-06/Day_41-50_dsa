@@ -10,11 +10,6 @@ class Solution {
       return 0;
     // Add the index to prevent duplication.
     final String hashKey = ring + index;
-    if (mem.containsKey(hashKey))
-      return mem.get(hashKey);
 
-    int ans = Integer.MAX_VALUE;
-
-   
 
  
