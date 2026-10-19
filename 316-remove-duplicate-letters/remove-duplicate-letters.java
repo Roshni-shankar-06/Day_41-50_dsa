@@ -8,7 +8,5 @@ class Solution {
       ++count[c];
 
     for (final char c : s.toCharArray()) {
-      --count[c];
-      if (used[c])
-
+    
       
