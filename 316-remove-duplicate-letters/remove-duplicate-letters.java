@@ -10,6 +10,5 @@ class Solution {
     for (final char c : s.toCharArray()) {
       --count[c];
       if (used[c])
-        continue;
-    ast(sb)] = false;
-       
+
+      
