@@ -21,7 +21,4 @@ class Solution {
     for (int i = 0; i < ring.length(); ++i)
    
 
-    mem.put(hashKey, ans);
-    return ans;
-  }
-}
+ 
