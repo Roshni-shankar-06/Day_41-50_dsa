@@ -17,8 +17,4 @@ class Solution {
       }
       used[c] = true;
       sb.append(c);
-    }
-
-    return sb.toString();
-  }
-
+  
