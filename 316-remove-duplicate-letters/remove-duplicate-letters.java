@@ -11,6 +11,5 @@ class Solution {
       --count[c];
       if (used[c])
         continue;
-      while (sb.length() > 0 && last(sb) > c && count[last(sb)] > 0) {
-        used[last(sb)] = false;
+    ast(sb)] = false;
        
