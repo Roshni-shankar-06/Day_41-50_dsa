@@ -15,6 +15,3 @@ class Solution {
         used[last(sb)] = false;
         sb.setLength(sb.length() - 1);
       }
-      used[c] = true;
-      sb.append(c);
-  
