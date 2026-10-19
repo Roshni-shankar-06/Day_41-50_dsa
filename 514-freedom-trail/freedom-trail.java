@@ -22,9 +22,7 @@ class Solution {
       if (ring.charAt(i) == key.charAt(index)) {
         final int minRotates = Math.min(i, ring.length() - i);
         final String newRing = ring.substring(i) + ring.substring(0, i);
-        final int remainingRotates = dfs(newRing, key, index + 1, mem);
-        ans = Math.min(ans, minRotates + remainingRotates);
-      }
+       
 
     mem.put(hashKey, ans);
     return ans;
