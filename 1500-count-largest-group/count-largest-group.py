@@ -6,4 +6,4 @@ class Solution:
     return count.count(max(count))
 
   def _getDigitSum(self, num: int) -> int:
-    return sum(int(digit) for digit in str(num))
+   
