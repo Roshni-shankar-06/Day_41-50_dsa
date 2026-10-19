@@ -5,5 +5,5 @@ class Solution:
       count[self._getDigitSum(i)] += 1
     return count.count(max(count))
 
-  def _getDigitSum(self, num: int) -> int:
+
    
