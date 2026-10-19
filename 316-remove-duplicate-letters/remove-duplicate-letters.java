@@ -13,5 +13,4 @@ class Solution {
         continue;
       while (sb.length() > 0 && last(sb) > c && count[last(sb)] > 0) {
         used[last(sb)] = false;
-        sb.setLength(sb.length() - 1);
-      }
+       
