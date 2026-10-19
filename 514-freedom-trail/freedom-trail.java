@@ -7,9 +7,4 @@ class Solution {
   // Returns the number of rotates of ring to match key[index..n).
   private int dfs(final String ring, final String key, int index, Map<String, Integer> mem) {
     if (index == key.length())
-      return 0;
-    // Add the index to prevent duplication.
-    final String hashKey = ring + index;
-
-
- 
+   
