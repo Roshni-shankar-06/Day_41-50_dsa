@@ -15,10 +15,6 @@ class Solution {
 
     int ans = Integer.MAX_VALUE;
 
-    // For each ring[i] == key[index], we rotate the ring to match the ring[i]
-    // with the key[index], then recursively match the newRing with the
-    // key[index + 1..n).
-    for (int i = 0; i < ring.length(); ++i)
    
 
  
