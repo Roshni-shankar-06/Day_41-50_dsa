@@ -22,7 +22,3 @@ class Solution {
     return sb.toString();
   }
 
-  private char last(StringBuilder sb) {
-    return sb.charAt(sb.length() - 1);
-  }
-}
