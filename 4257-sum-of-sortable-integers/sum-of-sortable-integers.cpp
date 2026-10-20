@@ -24,9 +24,4 @@ public:
             for (int d : {k, n / k}) {
                 if (d != k && d == k) continue;
 
-                bool ok = true;
-
-                for (int start = 0; start < n; start += d) {
-                    int end = start + d - 1;
-
-            
+          
