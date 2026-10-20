@@ -9,7 +9,4 @@ class Solution {
     for (int isOdd = 0; head; head = head->next)
       if (isOdd ^= 1) {
         odd->next = head;
-        odd = odd->next;
-      } else {
-        even->next = head;
-       
+    
