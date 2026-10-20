@@ -6,6 +6,4 @@ class Solution {
     dp[0] = 0;
 
     for (const int coin : coins)
-      for (int i = coin; i <= amount; ++i)
-        dp[i] = min(dp[i], dp[i - coin] + 1);
-
+     
