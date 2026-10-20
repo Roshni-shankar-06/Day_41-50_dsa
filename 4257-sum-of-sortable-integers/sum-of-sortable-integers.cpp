@@ -10,8 +10,4 @@ public:
         for (int i = 0; i < n; i++)
             prefMax[i + 1] = max(prefMax[i], nums[i]);
 
-        for (int i = n - 1; i >= 0; i--)
-            suffMin[i] = min(nums[i], suffMin[i + 1]);
-
-        for (int i = 1; i < n; i++)
-        
+    
