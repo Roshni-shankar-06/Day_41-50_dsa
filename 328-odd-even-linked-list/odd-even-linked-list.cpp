@@ -16,7 +16,4 @@ class Solution {
       }
 
     odd->next = evenHead.next;
-    even->next = nullptr;
-    return oddHead.next;
-  }
-};
+  
