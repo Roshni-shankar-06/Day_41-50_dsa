@@ -42,9 +42,4 @@ public:
                 if (ok) ans += d;
 
                 if (k == n / k) break;
-            }
-        }
-
-        return ans;
-    }
-};
+         
