@@ -36,10 +36,4 @@ public:
                         (start > 0 && prefMax[start] > suffMin[start])) {
                         ok = false;
                         break;
-                    }
-                }
-
-                if (ok) ans += d;
-
-                if (k == n / k) break;
-         
+            
