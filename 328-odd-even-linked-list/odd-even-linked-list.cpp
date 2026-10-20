@@ -12,8 +12,4 @@ class Solution {
         odd = odd->next;
       } else {
         even->next = head;
-        even = even->next;
-      }
-
-    odd->next = evenHead.next;
-  
+       
