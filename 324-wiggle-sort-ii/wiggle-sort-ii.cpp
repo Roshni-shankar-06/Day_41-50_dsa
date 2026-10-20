@@ -11,6 +11,4 @@ class Solution {
 
     for (int i = 0, j = 0, k = n - 1; i <= k;)
       if (A(i) > median)
-        swap(A(i++), A(j++));
-      else if (A(i) < median)
-        swap(A(i), A(k--));
+     
