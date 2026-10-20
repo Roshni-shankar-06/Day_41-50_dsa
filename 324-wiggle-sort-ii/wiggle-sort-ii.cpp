@@ -14,7 +14,3 @@ class Solution {
         swap(A(i++), A(j++));
       else if (A(i) < median)
         swap(A(i), A(k--));
-      else
-        ++i;
-  }
-};
