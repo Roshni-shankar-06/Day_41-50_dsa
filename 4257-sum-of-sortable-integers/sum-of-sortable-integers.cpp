@@ -33,7 +33,5 @@ public:
                     if (nums[end] > nums[start]) cnt++;
 
                     if (cnt > 1 ||
-                        (start > 0 && prefMax[start] > suffMin[start])) {
-                        ok = false;
-                        break;
+                       
             
