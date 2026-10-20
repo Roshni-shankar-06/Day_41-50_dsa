@@ -29,9 +29,4 @@ public:
                 for (int start = 0; start < n; start += d) {
                     int end = start + d - 1;
 
-                    int cnt = drops[end] - drops[start];
-                    if (nums[end] > nums[start]) cnt++;
-
-                    if (cnt > 1 ||
-                       
             
