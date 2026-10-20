@@ -16,10 +16,6 @@ public:
         for (int i = 1; i < n; i++)
             drops[i] = drops[i - 1] + (nums[i - 1] > nums[i]);
 
-        int ans = 0;
-
-        for (int k = 1; k <= n / k; k++) {
-            if (n % k != 0) continue;
 
             for (int d : {k, n / k}) {
                 if (d != k && d == k) continue;
