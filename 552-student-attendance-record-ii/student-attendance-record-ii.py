@@ -14,10 +14,7 @@ class Solution:
       # Append an L.
       dp[0][1] = prev[0][0]
 
-      # Append an L.
-      dp[0][2] = prev[0][1]
-
-
+ 
 
   
    
