@@ -9,7 +9,7 @@ class Solution:
             return -1
 
         if s[0] == min(s) or s[-1] == max(s):
-            return 1
+          
 
           
     
