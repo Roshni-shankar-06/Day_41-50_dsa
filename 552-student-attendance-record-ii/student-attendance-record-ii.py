@@ -11,9 +11,7 @@ class Solution:
       # Append a P.
       dp[0][0] = (prev[0][0] + prev[0][1] + prev[0][2]) % MOD
 
-      # Append an L.
-      dp[0][1] = prev[0][0]
-
+  
    
     
 
