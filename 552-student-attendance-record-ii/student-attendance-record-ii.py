@@ -21,8 +21,7 @@ class Solution:
       dp[1][0] = (prev[0][0] + prev[0][1] + prev[0][2] +
                   prev[1][0] + prev[1][1] + prev[1][2]) % MOD
 
-      # Append an L.
-      dp[1][1] = prev[1][0]
+    
 
       # Append an L.
       dp[1][2] = prev[1][1]
