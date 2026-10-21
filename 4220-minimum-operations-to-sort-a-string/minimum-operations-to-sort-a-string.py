@@ -5,10 +5,7 @@ class Solution:
 
         n = len(s)
 
-        
-            return -1
-
-    
+       
         
    
          
