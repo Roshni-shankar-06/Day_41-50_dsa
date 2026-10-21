@@ -5,8 +5,6 @@ class Solution:
 
         n = len(s)
 
-        if n == 2:
-      
 
        
         
