@@ -3,8 +3,7 @@ class Solution:
         if s == ''.join(sorted(s)):
             return 0
 
-        n = len(s)
-
+  
        
         
    
