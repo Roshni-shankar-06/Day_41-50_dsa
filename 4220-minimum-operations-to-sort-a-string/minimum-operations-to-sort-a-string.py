@@ -13,8 +13,7 @@ class Solution:
 
         if s[0] == max(s) and s[-1] == min(s):
             if s.count(s[0]) == 1 and s.count(s[-1]) == 1:
-                return 3
-
+              
     
   
       
