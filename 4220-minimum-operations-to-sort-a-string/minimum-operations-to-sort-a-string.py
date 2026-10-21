@@ -15,4 +15,4 @@ class Solution:
             if s.count(s[0]) == 1 and s.count(s[-1]) == 1:
                 return 3
 
-        return 2
+ 
