@@ -20,7 +20,4 @@ class Solution:
    
     
 
-      # Append an L.
-      dp[1][2] = prev[1][1]
-
-    return (sum(dp[0]) + sum(dp[1])) % MOD
+   
