@@ -8,7 +8,7 @@ class Solution:
         if n == 2:
             return -1
 
-        if s[0] == min(s) or s[-1] == max(s):
+    
         
    
          
