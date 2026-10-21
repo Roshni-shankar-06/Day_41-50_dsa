@@ -8,8 +8,7 @@ class Solution:
     for _ in range(n):
       prev = [A[:] for A in dp]
 
-      # Append a P.
-      dp[0][0] = (prev[0][0] + prev[0][1] + prev[0][2]) % MOD
+
 
   
    
