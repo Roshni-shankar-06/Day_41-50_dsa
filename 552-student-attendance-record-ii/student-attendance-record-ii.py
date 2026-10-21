@@ -5,8 +5,6 @@ class Solution:
     dp = [[0] * 3 for _ in range(2)]
     dp[0][0] = 1
 
-    for _ in range(n):
-      prev = [A[:] for A in dp]
 
  
   
