@@ -22,7 +22,7 @@ class Solution:
                   prev[1][0] + prev[1][1] + prev[1][2]) % MOD
 
       # Append an L.
-      dp[1][1] = prev[1][0]
+
    
 
   
