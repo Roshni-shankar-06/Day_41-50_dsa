@@ -1,7 +1,7 @@
 class Solution:
     def minOperations(self, s: str) -> int:
         if s == ''.join(sorted(s)):
-            return 0
+           
 
   
 
