@@ -33,9 +33,5 @@ class Solution {
         List<int[]> result = new ArrayList<>();
         
         for (int[] p : hull) {
-            String key = p[0] + "," + p[1];
-            if (!visited.contains(key)) {
-                visited.add(key);
-                result.add(p);
            
   
