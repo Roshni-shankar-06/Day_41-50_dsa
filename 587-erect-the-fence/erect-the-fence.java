@@ -29,9 +29,6 @@ class Solution {
         }
 
         // Step 4: Remove duplicate points using a Set with a coordinate string key
-        Set<String> visited = new HashSet<>();
-        List<int[]> result = new ArrayList<>();
-        
-        for (int[] p : hull) {
+
            
   
