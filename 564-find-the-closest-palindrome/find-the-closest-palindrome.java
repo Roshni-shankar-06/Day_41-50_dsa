@@ -14,7 +14,4 @@ class Solution {
         long prefix = Long.parseLong(n.substring(0, (len + 1) / 2));
         long[] prefixOffsets = {prefix, prefix + 1, prefix - 1};
         
-        for (long p : prefixOffsets) {
-            StringBuilder sb = new StringBuilder(String.valueOf(p));
-            String reversed = new StringBuilder(sb).reverse().toString();
-          
+    
