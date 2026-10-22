@@ -23,9 +23,4 @@ public class NestedIterator implements Iterator<Integer> {
         while (!stack.isEmpty() && !stack.peek().isInteger()) {
             List<NestedInteger> nextList = stack.pop().getList();
             prepareStack(nextList);
-        }
-        return !stack.isEmpty();
-    }
-
-    // Helper method to push items in reverse order
-    p
+  
