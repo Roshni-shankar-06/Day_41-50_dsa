@@ -29,9 +29,4 @@ class Solution {
         long minDiff = Long.MAX_VALUE;
         long result = 0;
         
-        for (long cand : candidates) {
-            if (cand == num) continue; // Must be distinct
-            
-            long diff = Math.abs(cand - num);
-            if (diff < minDiff) {
-              
+     
