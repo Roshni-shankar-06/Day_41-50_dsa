@@ -20,9 +20,5 @@ class Solution {
         }
 
         // Step 3: Build the upper hull
-        for (int i = trees.length - 2; i >= 0; i--) {
-            int[] tree = trees[i];
-            while (hull.size() >= 2 && crossProduct(hull.get(hull.size() - 2), hull.get(hull.size() - 1), tree) < 0) {
-                hull.remove(hull.size() - 1);
-           
+        f
   
