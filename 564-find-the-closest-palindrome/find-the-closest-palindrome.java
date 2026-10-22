@@ -17,8 +17,4 @@ class Solution {
         for (long p : prefixOffsets) {
             StringBuilder sb = new StringBuilder(String.valueOf(p));
             String reversed = new StringBuilder(sb).reverse().toString();
-            if (len % 2 == 0) {
-                sb.append(reversed);
-            } else {
-                sb.append(reversed.substring(1));
-         
+          
