@@ -26,11 +26,4 @@ public:
             }
             if (nums[(zero - i + n) % n] != i) {
                 left_inc = false;
-            }
-        }
-
-        int ans = 1e9;
-
-        // Case 1: Elements increase to the right from 0
-        if (right_inc) {
-         
+        
