@@ -11,10 +11,4 @@ public:
         int zero = 0;
         for (int i = 0; i < n; ++i) {
             if (nums[i] == 0) {
-                zero = i;
-                break;
-            }
-        }
-
-        bool right_inc = true;
-  
+             
