@@ -28,9 +28,4 @@ public class NestedIterator implements Iterator<Integer> {
     }
 
     // Helper method to push items in reverse order
-    private void prepareStack(List<NestedInteger> list) {
-        for (int i = list.size() - 1; i >= 0; i--) {
-            stack.push(list.get(i));
-        }
-    }
-}
+    p
