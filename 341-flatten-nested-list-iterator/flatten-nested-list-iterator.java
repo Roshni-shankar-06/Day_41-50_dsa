@@ -6,10 +6,4 @@ public class NestedIterator implements Iterator<Integer> {
 
     public NestedIterator(List<NestedInteger> nestedList) {
         stack = new Stack<>();
-        prepareStack(nestedList);
-    }
-
-    @Override
-    public Integer next() {
-       
- 
+  
