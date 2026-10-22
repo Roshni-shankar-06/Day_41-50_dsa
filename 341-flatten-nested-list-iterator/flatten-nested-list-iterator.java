@@ -11,10 +11,5 @@ public class NestedIterator implements Iterator<Integer> {
 
     @Override
     public Integer next() {
-        if (!hasNext()) {
-            throw new NoSuchElementException();
-        }
-        return stack.pop().getInteger();
-    }
-
+       
  
