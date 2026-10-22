@@ -17,8 +17,4 @@ public class NestedIterator implements Iterator<Integer> {
         return stack.pop().getInteger();
     }
 
-    @Override
-    public boolean hasNext() {
-        // Flatten nested lists on-demand until an integer is on top
-     ;
-  
+ 
