@@ -1,1 +1,1 @@
-
+i need to train these models with the dataset i searched for open source dataset but i was not able to find acc to train these model so i want u to create dataset to train these models in such a way it improves accuracy,input and output gives everthing properly so crete and give me systhetic datasets   when i already asked i got these datasets now i need different datasets to train acc dont give the same one
