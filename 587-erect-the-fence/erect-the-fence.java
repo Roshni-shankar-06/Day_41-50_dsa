@@ -37,10 +37,5 @@ class Solution {
             if (!visited.contains(key)) {
                 visited.add(key);
                 result.add(p);
-            }
-        }
-
-        return result.toArray(new int[result.size()][]);
-    }
-
+           
   
