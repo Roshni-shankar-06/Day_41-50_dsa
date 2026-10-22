@@ -21,9 +21,4 @@ public:
 
         // Check both cyclic directions
         for (int i = 1; i < n; ++i) {
-            if (nums[(zero + i) % n] != i) {
-                right_inc = false;
-            }
-            if (nums[(zero - i + n) % n] != i) {
-                left_inc = false;
         
