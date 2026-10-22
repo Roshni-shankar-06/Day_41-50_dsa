@@ -14,11 +14,4 @@ class Solution {
         // Step 2: Build the lower hull
         for (int[] tree : trees) {
             while (hull.size() >= 2 && crossProduct(hull.get(hull.size() - 2), hull.get(hull.size() - 1), tree) < 0) {
-                hull.remove(hull.size() - 1);
-            }
-            hull.add(tree);
-        }
-
-        // Step 3: Build the upper hull
-        f
-  
+          
