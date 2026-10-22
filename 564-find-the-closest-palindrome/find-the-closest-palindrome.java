@@ -8,10 +8,4 @@ class Solution {
         // Step 1: Handle base structural edge candidates
         List<Long> candidates = new ArrayList<>();
         candidates.add((long) Math.pow(10, len - 1) - 1); // Edge case: e.g., 999
-        candidates.add((long) Math.pow(10, len) + 1);     // Edge case: e.g., 10001
-        
-        // Step 2: Generate candidates from the prefix
-        long prefix = Long.parseLong(n.substring(0, (len + 1) / 2));
-        long[] prefixOffsets = {prefix, prefix + 1, prefix - 1};
-        
-    
+       
