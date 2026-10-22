@@ -21,12 +21,4 @@ class Solution {
                 sb.append(reversed);
             } else {
                 sb.append(reversed.substring(1));
-            }
-            candidates.add(Long.parseLong(sb.toString()));
-        }
-        
-        // Step 3: Find the closest valid distinct palindrome
-        long minDiff = Long.MAX_VALUE;
-        long result = 0;
-        
-     
+         
