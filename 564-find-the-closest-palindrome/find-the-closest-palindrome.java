@@ -38,9 +38,4 @@ class Solution {
                 result = cand;
             } else if (diff == minDiff) {
                 result = Math.min(result, cand); // Tie-breaker: smaller value
-            }
-        }
-        
-        return String.valueOf(result);
-    }
-}
+      
