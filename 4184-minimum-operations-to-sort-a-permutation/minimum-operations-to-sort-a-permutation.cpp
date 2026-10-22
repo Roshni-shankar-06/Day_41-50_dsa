@@ -33,9 +33,4 @@ public:
 
         // Case 1: Elements increase to the right from 0
         if (right_inc) {
-            // Path A: Shift left directly to bring 0 to the front
-            ans = std::min(ans, zero);
-            // Path B: Reverse -> Shift left -> Reverse back
-            ans = std::min(ans, 2 + n - zero);
-        }
-
+         
