@@ -39,9 +39,3 @@ public:
             ans = std::min(ans, 2 + n - zero);
         }
 
-        // Case 2: Elements increase to the left from 0 (decreasing sequence)
-        if (left_inc) {
-            // Path C: Shift left to move 0 to the end -> Reverse
-            ans = std::min(ans, zero + 2);
-            // Path D: Reverse -> Shift left to bring 0 to the front
-        
