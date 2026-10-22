@@ -44,9 +44,4 @@ public:
             // Path C: Shift left to move 0 to the end -> Reverse
             ans = std::min(ans, zero + 2);
             // Path D: Reverse -> Shift left to bring 0 to the front
-            ans = std::min(ans, n - zero);
-        }
-
-        return (ans == 1e9) ? -1 : ans;
-    }
-};
+        
