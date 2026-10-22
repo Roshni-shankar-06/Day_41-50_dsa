@@ -43,9 +43,4 @@ class Solution {
         return result.toArray(new int[result.size()][]);
     }
 
-    // Helper method to calculate the cross product of vectors BA and CA
-    private int crossProduct(int[] a, int[] b, int[] c) {
-        return (b[0] - a[0]) * (c[1] - b[1]) - (b[1] - a[1]) * (c[0] - b[0]);
-    }
-}
-
+  
