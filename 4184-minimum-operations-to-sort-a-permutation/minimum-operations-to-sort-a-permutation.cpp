@@ -17,8 +17,4 @@ public:
         }
 
         bool right_inc = true;
-        bool left_inc = true;
-
-        // Check both cyclic directions
-        for (int i = 1; i < n; ++i) {
-        
+  
