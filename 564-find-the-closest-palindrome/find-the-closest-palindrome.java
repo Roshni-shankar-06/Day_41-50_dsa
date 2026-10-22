@@ -34,8 +34,4 @@ class Solution {
             
             long diff = Math.abs(cand - num);
             if (diff < minDiff) {
-                minDiff = diff;
-                result = cand;
-            } else if (diff == minDiff) {
-                result = Math.min(result, cand); // Tie-breaker: smaller value
-      
+              
