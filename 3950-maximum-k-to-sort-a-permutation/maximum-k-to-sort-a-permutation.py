@@ -6,8 +6,4 @@ class Solution:
         # Find the maximum possible bitmask (all bits set up to n-1)
         pow2 = 1
         while pow2 < n:
-            pow2 <<= 1
-        max_k = pow2 - 1
-        
-        k = max_k
-      
+    
