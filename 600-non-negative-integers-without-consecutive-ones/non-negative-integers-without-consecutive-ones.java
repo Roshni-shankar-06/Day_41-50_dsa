@@ -23,9 +23,4 @@ class Solution {
       if (bits.charAt(i) == '1' && bits.charAt(i + 1) == '1')
         break;
       if (bits.charAt(i) == '0' && bits.charAt(i + 1) == '0')
-        ans -= one[i];
-    }
-
-    return ans;
-  }
-}
+    
