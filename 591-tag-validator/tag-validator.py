@@ -11,7 +11,4 @@ class Solution:
 
     def isValidTagName(tagName: str, isEndTag: bool) -> bool:
       nonlocal containsTag
-      if not tagName or len(tagName) > 9:
-        return False
-      if any(not c.isupper() for c in tagName):
-        return False
+    
