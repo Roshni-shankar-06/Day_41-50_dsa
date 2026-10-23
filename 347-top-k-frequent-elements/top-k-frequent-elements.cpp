@@ -13,8 +13,4 @@ class Solution {
     priority_queue<T, vector<T>, decltype(compare)> minHeap(compare);
 
     for (const int num : nums)
-      ++count[num];
-
-    for (const auto& [num, freq] : count) {
-      minHeap.emplace(num, freq);
     
