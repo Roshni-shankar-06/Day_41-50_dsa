@@ -10,8 +10,4 @@ class Solution:
         max_k = pow2 - 1
         
         k = max_k
-        sorted_flag = True
-        
-        for i, val in enumerate(nums):
-            if val != i:
-              
+      
