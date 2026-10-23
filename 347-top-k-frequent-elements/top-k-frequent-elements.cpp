@@ -9,8 +9,4 @@ class Solution {
     const int n = nums.size();
     vector<int> ans;
     unordered_map<int, int> count;
-    auto compare = [](const T& a, const T& b) { return a.freq > b.freq; };
-    priority_queue<T, vector<T>, decltype(compare)> minHeap(compare);
-
-    for (const int num : nums)
-    
+   
