@@ -4,8 +4,3 @@ class Solution {
     int ans = 0;
     int zeros = 0;
     int ones = ranges::count(s, '1');
-
-    for (int i = 0; i + 1 < s.size(); ++i) {
-      if (s[i] == '0')
-        ++zeros;
-   
