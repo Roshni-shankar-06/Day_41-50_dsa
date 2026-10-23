@@ -40,8 +40,4 @@ class Solution:
                   True):
             return False
         else:  # the start tag
-          closeIndex = code.find('>', i + 1)
-          if closeIndex == -1 or not isValidTagName(
-                  code[i + 1: closeIndex],
-                  False):
-           
+        
