@@ -14,7 +14,4 @@ class Solution:
         
         for i, val in enumerate(nums):
             if val != i:
-                k &= val
-                sorted_flag = False
-                
-        return 0 if sorted_flag else k
+              
