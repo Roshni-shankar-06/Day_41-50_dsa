@@ -44,8 +44,4 @@ class Solution:
           if closeIndex == -1 or not isValidTagName(
                   code[i + 1: closeIndex],
                   False):
-            return False
-        i = closeIndex
-      i += 1
-
-    return not stack and containsTag
+           
