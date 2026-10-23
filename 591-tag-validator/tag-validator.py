@@ -31,8 +31,4 @@ class Solution:
         # It's inside a tag, so check if it's a cdata.
         if stack and code[i + 1] == '!':
           closeIndex = code.find(']]>', i + 2)
-          if closeIndex == -1 or not isValidCdata(code[i + 2:closeIndex]):
-            return False
-        elif code[i + 1] == '/':  # the end tag
-          closeIndex = code.find('>', i + 2)
-          i
+        
