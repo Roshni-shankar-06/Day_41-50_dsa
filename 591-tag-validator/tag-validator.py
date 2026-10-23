@@ -27,8 +27,4 @@ class Solution:
     while i < len(code):
       if not stack and containsTag:
         return False
-      if code[i] == '<':
-        # It's inside a tag, so check if it's a cdata.
-        if stack and code[i + 1] == '!':
-          closeIndex = code.find(']]>', i + 2)
-        
+    
