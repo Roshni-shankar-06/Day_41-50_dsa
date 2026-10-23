@@ -13,6 +13,4 @@ class Solution {
       ans = max(ans, zeros + ones);
     }
 
-    return ans;
-  }
-};
+  
