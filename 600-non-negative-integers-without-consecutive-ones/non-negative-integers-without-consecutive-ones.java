@@ -13,10 +13,4 @@ class Solution {
 
     for (int i = 1; i < n; ++i) {
       zero[i] = zero[i - 1] + one[i - 1];
-      one[i] = zero[i - 1];
-    }
-
-    int ans = zero[n - 1] + one[n - 1];
-
-    for (int i = n - 2; i >= 0; --i) {
-     
+    
