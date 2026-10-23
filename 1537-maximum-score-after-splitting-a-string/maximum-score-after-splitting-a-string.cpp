@@ -8,9 +8,4 @@ class Solution {
     for (int i = 0; i + 1 < s.size(); ++i) {
       if (s[i] == '0')
         ++zeros;
-      else
-        --ones;
-      ans = max(ans, zeros + ones);
-    }
-
-  
+   
