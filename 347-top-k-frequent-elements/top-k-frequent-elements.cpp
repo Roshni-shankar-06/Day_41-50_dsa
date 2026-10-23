@@ -22,8 +22,4 @@ class Solution {
     }
 
     while (!minHeap.empty())
-      ans.push_back(minHeap.top().num), minHeap.pop();
-
-    return ans;
-  }
-};
+  
