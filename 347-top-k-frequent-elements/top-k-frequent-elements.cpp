@@ -17,9 +17,4 @@ class Solution {
 
     for (const auto& [num, freq] : count) {
       minHeap.emplace(num, freq);
-      if (minHeap.size() > k)
-        minHeap.pop();
-    }
-
-    while (!minHeap.empty())
-  
+    
