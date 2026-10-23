@@ -21,10 +21,4 @@ class Solution:
 
       containsTag = True
       stack.append(tagName)
-      return True
-
-    i = 0
-    while i < len(code):
-      if not stack and containsTag:
-        return False
-    
+   
