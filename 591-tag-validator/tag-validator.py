@@ -15,10 +15,3 @@ class Solution:
         return False
       if any(not c.isupper() for c in tagName):
         return False
-
-      if isEndTag:
-        return stack and stack.pop() == tagName
-
-      containsTag = True
-      stack.append(tagName)
-   
