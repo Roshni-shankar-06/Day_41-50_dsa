@@ -35,9 +35,4 @@ class Solution:
             return False
         elif code[i + 1] == '/':  # the end tag
           closeIndex = code.find('>', i + 2)
-          if closeIndex == -1 or not isValidTagName(
-                  code[i + 2: closeIndex],
-                  True):
-            return False
-        else:  # the start tag
-        
+          i
