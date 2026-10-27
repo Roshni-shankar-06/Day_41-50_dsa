@@ -12,6 +12,4 @@ class Solution {
         for (int i = 0; i < m; i++) {
             ans[i] = new String(g[i]);
         }
-        return ans;
-    }
-}
+        
