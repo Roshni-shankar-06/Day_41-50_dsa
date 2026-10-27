@@ -5,6 +5,4 @@ class Solution:
         
         lo, hi = 1, m * n
         while lo < hi:
-            mi = (lo + hi) // 2
-            if enough(mi):
-             
+         
