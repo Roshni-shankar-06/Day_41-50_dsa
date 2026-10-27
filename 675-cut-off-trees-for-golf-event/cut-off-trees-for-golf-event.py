@@ -14,7 +14,5 @@ class Solution:
     trees.sort()
     
     # BFS function to find min steps from (sr, sc) to (tr, tc)
-    def bfs(sr, sc, tr, tc):
-      if sr == tr and sc == tc:
-        return 0
+   
     
