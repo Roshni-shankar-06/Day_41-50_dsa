@@ -41,7 +41,4 @@ class Solution:
     curr_r, curr_c = 0, 0
     
     for _, tr, tc in trees:
-      steps = bfs(curr_r, curr_c, tr, tc)
-      if steps == -1:
-        return -1
-    
+   
