@@ -44,7 +44,4 @@ class Solution:
       steps = bfs(curr_r, curr_c, tr, tc)
       if steps == -1:
         return -1
-      ans += steps
-      curr_r, curr_c = tr, tc
-      
-    return ans
+    
