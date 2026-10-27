@@ -9,7 +9,4 @@ class Solution {
             g[i][n - 1] = '.';
         }
         String[] ans = new String[m];
-        for (int i = 0; i < m; i++) {
-            ans[i] = new String(g[i]);
-        }
-        
+       
