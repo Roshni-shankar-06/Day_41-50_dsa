@@ -22,9 +22,4 @@ class Solution:
       steps = 0
       
       while q:
-        steps += 1
-        for _ in range(len(q)):
-          r, c = q.popleft()
-          for dr, dc in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
-        
    
