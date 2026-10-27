@@ -8,11 +8,4 @@ class Solution:
     for r in range(m):
       for c in range(n):
         if forest[r][c] > 1:
-          trees.append((forest[r][c], r, c))
-    
-    # Sort trees by height
-    trees.sort()
-    
-    # BFS function to find min steps from (sr, sc) to (tr, tc)
-   
-    
+         
