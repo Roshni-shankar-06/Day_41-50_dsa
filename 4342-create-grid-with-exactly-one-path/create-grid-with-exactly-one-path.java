@@ -6,7 +6,4 @@ class Solution {
         }
         Arrays.fill(g[0], '.');
         for (int i = 0; i < m; i++) {
-            g[i][n - 1] = '.';
-        }
-        String[] ans = new String[m];
-       
+         
