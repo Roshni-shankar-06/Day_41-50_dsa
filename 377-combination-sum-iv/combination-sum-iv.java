@@ -5,9 +5,4 @@ class Solution {
         
         for (int i = 1; i <= target; i++) {
             for (int num : nums) {
-                if (i >= num) {
-                    dp[i] += dp[i - num];
-                }
-            }
-        }
-        
+                
