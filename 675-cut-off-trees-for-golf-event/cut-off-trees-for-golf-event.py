@@ -17,9 +17,4 @@ class Solution:
     def bfs(sr, sc, tr, tc):
       if sr == tr and sc == tc:
         return 0
-      q = collections.deque([(sr, sc)])
-      seen = {(sr, sc)}
-      steps = 0
-      
-      while q:
-   
+    
