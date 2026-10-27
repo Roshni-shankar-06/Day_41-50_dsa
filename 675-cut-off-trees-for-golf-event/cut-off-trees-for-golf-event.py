@@ -32,9 +32,5 @@ class Solution:
             if forest[nr][nc] == 0 or (nr, nc) in seen:
               continue
             if nr == tr and nc == tc:
-              return steps
-            q.append((nr, nc))
-            seen.add((nr, nc))
-      return -1
-
+             
    
