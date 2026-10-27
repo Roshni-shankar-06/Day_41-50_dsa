@@ -6,5 +6,4 @@ class Solution:
             if nums[i] > nums[i - 1]:
                 increasing = decreasing + 1
             elif nums[i] < nums[i - 1]:
-                decreasing = increasing + 1
-        return max(increasing, decreasing)
+
