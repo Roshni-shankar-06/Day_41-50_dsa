@@ -29,8 +29,5 @@ class Solution:
             nr, nc = r + dr, c + dc
             if nr < 0 or nr >= m or nc < 0 or nc >= n:
               continue
-            if forest[nr][nc] == 0 or (nr, nc) in seen:
-              continue
-            if nr == tr and nc == tc:
-             
+           
    
