@@ -7,7 +7,4 @@ class Solution:
         while lo < hi:
             mi = (lo + hi) // 2
             if enough(mi):
-                hi = mi
-            else:
-                lo = mi + 1
-        return lo
+             
