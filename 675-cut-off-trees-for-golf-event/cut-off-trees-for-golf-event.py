@@ -37,8 +37,4 @@ class Solution:
             seen.add((nr, nc))
       return -1
 
-    ans = 0
-    curr_r, curr_c = 0, 0
-    
-    for _, tr, tc in trees:
    
