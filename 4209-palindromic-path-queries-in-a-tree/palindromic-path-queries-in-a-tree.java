@@ -78,9 +78,4 @@ class Solution {
             }
         }
         return size;
-    }
-
-    private void decompose(int u, int h) {
-        head[u] = h;
-        pos[u] = curPos++;
-     
+  
