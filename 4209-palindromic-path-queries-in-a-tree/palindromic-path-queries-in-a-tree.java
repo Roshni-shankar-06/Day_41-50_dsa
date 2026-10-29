@@ -100,9 +100,4 @@ class Solution {
     }
 
     private int queryBit(int idx) {
-        int sum = 0;
-        for (; idx > 0; idx -= idx & -idx) {
-            sum ^= bit[idx];
-        }
-        return sum;
-   
+      
