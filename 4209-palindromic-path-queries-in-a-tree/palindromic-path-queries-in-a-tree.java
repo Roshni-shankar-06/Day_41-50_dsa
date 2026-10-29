@@ -94,10 +94,4 @@ class Solution {
     }
 
     private void updateBit(int idx, int val) {
-        for (; idx <= n; idx += idx & -idx) {
-            bit[idx] ^= val;
-        }
-    }
-
-    private int queryBit(int idx) {
-      
+       
