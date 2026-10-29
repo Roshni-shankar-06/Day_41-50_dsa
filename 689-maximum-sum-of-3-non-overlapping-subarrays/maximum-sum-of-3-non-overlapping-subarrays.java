@@ -38,7 +38,4 @@ class Solution {
         
         while (w3Start <= n - k) {
             // Update rolling sum bounds for each window
-            currentWindow1Sum = currentWindow1Sum - nums[w1Start - 1] + nums[w1Start + k - 1];
-            currentWindow2Sum = currentWindow2Sum - nums[w2Start - 1] + nums[w2Start + k - 1];
-            currentWindow3Sum = currentWindow3Sum - nums[w3Start - 1] + nums[w3Start + k - 1];
-            
+          
