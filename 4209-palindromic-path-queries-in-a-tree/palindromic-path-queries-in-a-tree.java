@@ -63,8 +63,4 @@ class Solution {
     }
 
     private int dfs(int u, int p, int d) {
-        parent[u] = p;
-        depth[u] = d;
-        int size = 1;
-        int maxSubtree = 0;
       
