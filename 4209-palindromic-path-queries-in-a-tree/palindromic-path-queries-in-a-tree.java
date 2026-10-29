@@ -8,8 +8,4 @@ class Solution {
     private int[] bit; 
     private int[] nodeValues;
 
-    public List<Boolean> palindromePath(int n, int[][] edges, String s, String[] queries) {
-        this.n = n;
-        adj = new ArrayList[n];
-        for (int i = 0; i < n; i++) {
-      
+  
