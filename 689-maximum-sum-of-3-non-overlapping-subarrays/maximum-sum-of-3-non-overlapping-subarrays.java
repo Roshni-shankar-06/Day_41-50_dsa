@@ -42,8 +42,3 @@ class Solution {
             currentWindow2Sum = currentWindow2Sum - nums[w2Start - 1] + nums[w2Start + k - 1];
             currentWindow3Sum = currentWindow3Sum - nums[w3Start - 1] + nums[w3Start + k - 1];
             
-            // Check if the current Window 1 sets a new maximum sum bound
-            if (currentWindow1Sum > maxWindow1Sum) {
-                maxWindow1Sum = currentWindow1Sum;
-         
-         
