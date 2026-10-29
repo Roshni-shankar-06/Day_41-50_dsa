@@ -33,9 +33,4 @@ class Solution {
         
         // Slide all three windows forward simultaneously
         int w1Start = 1;
-        int w2Start = k + 1;
-        int w3Start = 2 * k + 1;
-        
-        while (w3Start <= n - k) {
-            // Update rolling sum bounds for each window
-          
+       
