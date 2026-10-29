@@ -52,8 +52,4 @@ class Solution {
                 updateBit(pos[u], nodeValues[u] ^ newVal);
                 nodeValues[u] = newVal;
             } else {
-                int u = Integer.parseInt(parts[1]);
-                int v = Integer.parseInt(parts[2]);
-                int pathXor = queryPath(u, v);
-                // At most 1 character with an odd frequency can exist in a palindrome
                
