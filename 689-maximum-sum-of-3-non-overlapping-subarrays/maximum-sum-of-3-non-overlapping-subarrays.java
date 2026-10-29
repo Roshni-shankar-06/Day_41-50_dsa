@@ -15,8 +15,4 @@ class Solution {
         // Tracking the indices corresponding to max configurations
         int bestWindow1Index = 0;
         int bestWindow2Index1 = 0, bestWindow2Index2 = 0;
-        int[] result = new int[3];
-        
-        // Base initialization for the first window positions
-        for (int i = 0; i < k; i++) currentWindow1Sum += nums[i];
-     
+      
