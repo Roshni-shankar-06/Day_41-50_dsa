@@ -27,14 +27,4 @@ class Solution {
         nodeValues = new int[n];
         Arrays.fill(heavy, -1);
 
-        // Precompute subtree sizes, depths, and heavy edges
-        dfs(0, -1, 0);
-        curPos = 1; 
-        
-        // Decompose the tree into heavy chains
-        decompose(0, 0);
-
-        // Initialize Fenwick tree with character bitmasks
-        bit = new int[n + 1];
-        for (int i = 0; i < n; i++) {
-        
+      
