@@ -28,9 +28,4 @@ class Solution {
         
         bestWindow1Index = 0;
         bestWindow2Index1 = 0;
-        bestWindow2Index2 = k;
-        result[0] = 0; result[1] = k; result[2] = 2 * k;
-        
-        // Slide all three windows forward simultaneously
-        int w1Start = 1;
-       
+     
