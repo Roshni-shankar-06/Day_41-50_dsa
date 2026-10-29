@@ -37,10 +37,4 @@ class Solution {
         // Initialize Fenwick tree with character bitmasks
         bit = new int[n + 1];
         for (int i = 0; i < n; i++) {
-            nodeValues[i] = 1 << (s.charAt(i) - 'a');
-            updateBit(pos[i], nodeValues[i]);
-        }
-
-        List<Boolean> result = new ArrayList<>();
-        for (String q : queries) {
-       
+        
