@@ -22,9 +22,4 @@ class Solution {
         parent = new int[n];
         depth = new int[n];
         heavy = new int[n];
-        head = new int[n];
-        pos = new int[n];
-        nodeValues = new int[n];
-        Arrays.fill(heavy, -1);
-
-      
+    
