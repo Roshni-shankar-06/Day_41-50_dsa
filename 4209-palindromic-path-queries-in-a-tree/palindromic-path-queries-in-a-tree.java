@@ -114,8 +114,4 @@ class Solution {
     private int queryPath(int u, int v) {
         int res = 0;
         while (head[u] != head[v]) {
-            if (depth[head[u]] > depth[head[v]]) {
-                int temp = u; u = v; v = temp;
-            }
-            res ^= queryRange(pos[head[v]], pos[v]);
-     
+          
