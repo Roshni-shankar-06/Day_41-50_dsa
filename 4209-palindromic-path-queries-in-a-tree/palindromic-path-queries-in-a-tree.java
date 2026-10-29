@@ -88,10 +88,4 @@ class Solution {
         }
         for (int v : adj[u]) {
             if (v != parent[u] && v != heavy[u]) {
-                decompose(v, v);
-            }
-        }
-    }
-
-    private void updateBit(int idx, int val) {
-       
+         
