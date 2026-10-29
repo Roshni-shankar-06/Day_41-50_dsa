@@ -19,8 +19,4 @@ class Solution {
         
         // Base initialization for the first window positions
         for (int i = 0; i < k; i++) currentWindow1Sum += nums[i];
-        for (int i = k; i < 2 * k; i++) currentWindow2Sum += nums[i];
-        for (int i = 2 * k; i < 3 * k; i++) currentWindow3Sum += nums[i];
-        
-        maxWindow1Sum = currentWindow1Sum;
-   
+     
