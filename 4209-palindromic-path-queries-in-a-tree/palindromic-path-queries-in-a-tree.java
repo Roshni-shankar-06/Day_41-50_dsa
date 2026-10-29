@@ -105,10 +105,4 @@ class Solution {
             sum ^= bit[idx];
         }
         return sum;
-    }
-
-    private int queryRange(int l, int r) {
-        return queryBit(r) ^ queryBit(l - 1);
-    }
-
-  
+   
