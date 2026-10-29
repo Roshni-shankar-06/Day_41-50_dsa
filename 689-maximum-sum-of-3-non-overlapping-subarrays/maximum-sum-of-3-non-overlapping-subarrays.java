@@ -50,11 +50,7 @@ class Solution {
             
             // Check if Window 1 + Window 2 combination beats historical records
             if (maxWindow1Sum + currentWindow2Sum > maxWindow12Sum) {
-                maxWindow12Sum = maxWindow1Sum + currentWindow2Sum;
-                bestWindow2Index1 = bestWindow1Index;
-                bestWindow2Index2 = w2Start;
-            }
-            
+              
             // Check if full three-window combination achieves the definitive maximum sum
             if (maxWindow12Sum + currentWindow3Sum > maxTotalSum) {
                 maxTotalSum = maxWindow12Sum + currentWindow3Sum;
