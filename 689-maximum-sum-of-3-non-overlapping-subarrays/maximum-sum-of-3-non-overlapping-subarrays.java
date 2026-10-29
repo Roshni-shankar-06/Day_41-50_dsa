@@ -58,8 +58,4 @@ class Solution {
             // Check if full three-window combination achieves the definitive maximum sum
             if (maxWindow12Sum + currentWindow3Sum > maxTotalSum) {
                 maxTotalSum = maxWindow12Sum + currentWindow3Sum;
-                result[0] = bestWindow2Index1;
-                result[1] = bestWindow2Index2;
-                result[2] = w3Start;
-            }
-          
+              
