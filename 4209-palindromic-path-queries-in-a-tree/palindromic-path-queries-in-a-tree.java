@@ -12,9 +12,4 @@ class Solution {
         this.n = n;
         adj = new ArrayList[n];
         for (int i = 0; i < n; i++) {
-            adj[i] = new ArrayList<>();
-        }
-        for (int[] e : edges) {
-            adj[e[0]].add(e[1]);
-            adj[e[1]].add(e[0]);
-  
+      
