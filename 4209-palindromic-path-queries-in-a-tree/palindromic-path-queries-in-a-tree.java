@@ -47,9 +47,4 @@ class Solution {
             if (parts[0].equals("update")) {
                 int u = Integer.parseInt(parts[1]);
                 char c = parts[2].charAt(0);
-                int newVal = 1 << (c - 'a');
-                // XOR out old value, XOR in new value
-                updateBit(pos[u], nodeValues[u] ^ newVal);
-                nodeValues[u] = newVal;
-            } else {
-               
+              
