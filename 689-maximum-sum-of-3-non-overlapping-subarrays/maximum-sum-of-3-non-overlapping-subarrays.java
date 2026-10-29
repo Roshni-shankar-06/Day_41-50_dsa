@@ -66,8 +66,4 @@ class Solution {
             w1Start++;
             w2Start++;
             w3Start++;
-        }
         
-        return result;
-    }
-}
