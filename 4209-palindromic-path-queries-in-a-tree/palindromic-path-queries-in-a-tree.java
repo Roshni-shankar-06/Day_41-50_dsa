@@ -83,9 +83,4 @@ class Solution {
     private void decompose(int u, int h) {
         head[u] = h;
         pos[u] = curPos++;
-        if (heavy[u] != -1) {
-            decompose(heavy[u], h);
-        }
-        for (int v : adj[u]) {
-            if (v != parent[u] && v != heavy[u]) {
-         
+     
