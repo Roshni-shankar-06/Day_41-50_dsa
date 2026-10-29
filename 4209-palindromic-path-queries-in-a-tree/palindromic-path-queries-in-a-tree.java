@@ -43,8 +43,4 @@ class Solution {
 
         List<Boolean> result = new ArrayList<>();
         for (String q : queries) {
-            String[] parts = q.split(" ");
-            if (parts[0].equals("update")) {
-                int u = Integer.parseInt(parts[1]);
-                char c = parts[2].charAt(0);
-              
+       
