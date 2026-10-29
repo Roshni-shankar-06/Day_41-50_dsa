@@ -45,10 +45,5 @@ class Solution {
             // Check if the current Window 1 sets a new maximum sum bound
             if (currentWindow1Sum > maxWindow1Sum) {
                 maxWindow1Sum = currentWindow1Sum;
-                bestWindow1Index = w1Start;
-            }
-            
-            // Check if Window 1 + Window 2 combination beats historical records
-            if (maxWindow1Sum + currentWindow2Sum > maxWindow12Sum) {
-              
+         
          
