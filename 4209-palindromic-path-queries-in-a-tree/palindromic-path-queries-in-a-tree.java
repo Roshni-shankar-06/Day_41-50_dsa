@@ -111,7 +111,4 @@ class Solution {
         return queryBit(r) ^ queryBit(l - 1);
     }
 
-    private int queryPath(int u, int v) {
-        int res = 0;
-        while (head[u] != head[v]) {
-          
+  
