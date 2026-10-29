@@ -118,8 +118,4 @@ class Solution {
                 int temp = u; u = v; v = temp;
             }
             res ^= queryRange(pos[head[v]], pos[v]);
-            v = parent[head[v]];
-        }
-        if (depth[u] > depth[v]) {
-            int temp = u; u = v; v = temp;
-      
+     
