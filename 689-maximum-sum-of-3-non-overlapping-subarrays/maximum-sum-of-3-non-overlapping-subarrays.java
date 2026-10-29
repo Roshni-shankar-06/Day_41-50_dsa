@@ -62,8 +62,4 @@ class Solution {
                 result[1] = bestWindow2Index2;
                 result[2] = w3Start;
             }
-            
-            w1Start++;
-            w2Start++;
-            w3Start++;
-        
+          
