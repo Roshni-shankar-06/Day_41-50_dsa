@@ -8,8 +8,4 @@ class Solution {
         int currentWindow3Sum = 0;
         
         // Track the maximum historical configurations
-        int maxWindow1Sum = 0;
-        int maxWindow12Sum = 0;
-        int maxTotalSum = 0;
-        
-        
+      
