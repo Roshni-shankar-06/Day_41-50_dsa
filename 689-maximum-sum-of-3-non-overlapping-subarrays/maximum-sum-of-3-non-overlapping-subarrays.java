@@ -12,7 +12,4 @@ class Solution {
         int maxWindow12Sum = 0;
         int maxTotalSum = 0;
         
-        // Tracking the indices corresponding to max configurations
-        int bestWindow1Index = 0;
-        int bestWindow2Index1 = 0, bestWindow2Index2 = 0;
-      
+        
