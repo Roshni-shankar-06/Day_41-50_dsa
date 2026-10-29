@@ -17,9 +17,4 @@ class Solution {
         for (int[] e : edges) {
             adj[e[0]].add(e[1]);
             adj[e[1]].add(e[0]);
-        }
-
-        parent = new int[n];
-        depth = new int[n];
-        heavy = new int[n];
-    
+  
