@@ -23,9 +23,4 @@ class Solution {
         for (int i = 2 * k; i < 3 * k; i++) currentWindow3Sum += nums[i];
         
         maxWindow1Sum = currentWindow1Sum;
-        maxWindow12Sum = currentWindow1Sum + currentWindow2Sum;
-        maxTotalSum = maxWindow12Sum + currentWindow3Sum;
-        
-        bestWindow1Index = 0;
-        bestWindow2Index1 = 0;
-     
+   
