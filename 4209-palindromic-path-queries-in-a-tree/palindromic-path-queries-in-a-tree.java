@@ -56,11 +56,4 @@ class Solution {
                 int v = Integer.parseInt(parts[2]);
                 int pathXor = queryPath(u, v);
                 // At most 1 character with an odd frequency can exist in a palindrome
-                result.add(Integer.bitCount(pathXor) <= 1);
-            }
-        }
-        return result;
-    }
-
-    private int dfs(int u, int p, int d) {
-      
+               
