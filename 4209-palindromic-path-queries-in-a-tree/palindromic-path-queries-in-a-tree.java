@@ -67,9 +67,4 @@ class Solution {
         depth[u] = d;
         int size = 1;
         int maxSubtree = 0;
-        for (int v : adj[u]) {
-            if (v != p) {
-                int vSize = dfs(v, u, d + 1);
-                size += vSize;
-                if (vSize > maxSubtree) {
-                  
+      
