@@ -122,8 +122,4 @@ class Solution {
         }
         if (depth[u] > depth[v]) {
             int temp = u; u = v; v = temp;
-        }
-        res ^= queryRange(pos[u], pos[v]);
-        return res;
-    }
-}
+      
