@@ -72,10 +72,4 @@ class Solution {
                 int vSize = dfs(v, u, d + 1);
                 size += vSize;
                 if (vSize > maxSubtree) {
-                    maxSubtree = vSize;
-                    heavy[u] = v;
-                }
-            }
-        }
-        return size;
-  
+                  
